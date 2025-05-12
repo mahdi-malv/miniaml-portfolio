@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mahdi Malvandi</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://rjshkhr.github.io/cleanfolio-minimal" class="link"
+          >MM.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Experience</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Mahdi Malvandi.</span></h1>
+        <h2 class="about__role">Android Developer</h2>
+        <p class="about__desc">
+          Android engineer with 8+ years shaping maintainable apps and SDKs from Jetpack Compose to legacy Java, while slashing release cycles via CI/CD, thorough testing, and smart scripting. Known for clean architecture, decisive refactoring, and smooth collaboration across global teams. <em>I think of AI tools as power-ups, not an enemy</em><br>
+          <strong>Email:</strong> <a href="mailto:contact@mahdi-malv.com">contact@mahdi-malv.com</a><br>
+          <strong>Address:</strong> Copenhagen, Denmark
+        </p>
+        <div class="about__contact center">
+          <a
+            href="https://github.com/mahdi-malv/"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mahdi-malv/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Experience (as Projects) -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Experience</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <div style="text-align:center">
+              <h4 class="project__company" style="margin-bottom:0.2em;">framna.com</h4>
+              <div class="project__role" style="font-size:1em; margin-bottom:0.1em;">Senior Android Developer</div>
+              <div class="project__date" style="font-size:0.95em; color:#888;">Sep 2023 - Present | Copenhagen, Denmark</div>
+            </div>
+            <p class="project__description" style="text-align:left; margin-top:0.7em;">
+              • Develop Android applications (From cutting edge Compose down to 10 year old legacy codebase)<br>
+              • Enhance automation workflows using Github actions<br>
+              • Refactor abandoned projects to fresh maintainable codebases<br>
+              • Improve workflow by introducing tools such as SonarLint, Detekt with custom rules, etc.<br>
+              • Leverage AI tools to speed up productivity for self and team<br>
+              • Research and suggest AI services to improve development process<br>
+              • Create Jira, Harvest and Notion scripts/plugins for repetitive operations<br>
+              • Create helper apps for pixel perfect design from Figma<br>
+              • UI tests using emulator automation (Maestro, etc.)
+            </p>
+            <ul class="project__stack compact-stack">
+              <li class="project__stack-item">Kotlin</li>
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Jira</li>
+              <li class="project__stack-item">Notion</li>
+              <li class="project__stack-item">Figma</li>
+              <li class="project__stack-item">Jetpack Compose</li>
+              <li class="project__stack-item">Retrofit</li>
+              <li class="project__stack-item">Coroutines</li>
+              <li class="project__stack-item">RxKotlin</li>
+              <li class="project__stack-item">Mockito</li>
+              <li class="project__stack-item">Robolectric</li>
+              <li class="project__stack-item">Github Copilot</li>
+              <li class="project__stack-item">ChatGPT</li>
+              <li class="project__stack-item">Gemini enterprise</li>
+              <li class="project__stack-item">Claude-code</li>
+              <li class="project__stack-item">Codex</li>
+              <li class="project__stack-item">Cursor</li>
+              <li class="project__stack-item">Windsurf</li>
+              <li class="project__stack-item">CLine</li>
+              <li class="project__stack-item">Ollama</li>
+              <li class="project__stack-item">MCP helpers</li>
+            </ul>
+          </div>
+          <div class="project">
+            <div style="text-align:center">
+              <h4 class="project__company" style="margin-bottom:0.2em;">Coto by Eveworld</h4>
+              <div class="project__role" style="font-size:1em; margin-bottom:0.1em;">Senior Android Developer</div>
+              <div class="project__date" style="font-size:0.95em; color:#888;">May 2022 - Feb 2023 | Singapore (Remote)</div>
+            </div>
+            <p class="project__description" style="text-align:left; margin-top:0.7em;">
+              • Developed main code base using Kotlin and Jetpack Compose<br>
+              • Increased development speed for all Android devs using scripts and docs<br>
+              • Refactored app using new navigation-compose library<br>
+              • Introduced unit testing with Mockk<br>
+              • Awarded most influential person, Sep 2022
+            </p>
+            <ul class="project__stack compact-stack">
+              <li class="project__stack-item">MVVM</li>
+              <li class="project__stack-item">Clean architecture</li>
+              <li class="project__stack-item">Jetpack Compose</li>
+              <li class="project__stack-item">Retrofit REST API</li>
+              <li class="project__stack-item">Firebase</li>
+              <li class="project__stack-item">Kotlin coroutines</li>
+              <li class="project__stack-item">Mockk</li>
+              <li class="project__stack-item">GitHub CI/CD</li>
+              <li class="project__stack-item">Agile</li>
+              <li class="project__stack-item">Jira</li>
+              <li class="project__stack-item">Notion</li>
+              <li class="project__stack-item">Crashlytics</li>
+              <li class="project__stack-item">QA</li>
+            </ul>
+          </div>
+          <div class="project">
+            <div style="text-align:center">
+              <h4 class="project__company" style="margin-bottom:0.2em;">Tapsell</h4>
+              <div class="project__role" style="font-size:1em; margin-bottom:0.1em;">Android SDK Developer</div>
+              <div class="project__date" style="font-size:0.95em; color:#888;">Mar 2021 - May 2022 | Tehran, Iran</div>
+            </div>
+            <p class="project__description" style="text-align:left; margin-top:0.7em;">
+              • Developed, improved, and maintained SDK and plugins (Java, Kotlin, Dart, JS, C#)<br>
+              • Refactored all plugins, restoring support<br>
+              • Created/maintained plugins for React Native, Flutter, Unity, B4A<br>
+              • Improved release speed by 100% to MavenCentral<br>
+              • Automated build, test, and release with CI/CD (2x speed)<br>
+              • Wrote B4A plugin with automated transformation
+            </p>
+            <ul class="project__stack compact-stack">
+              <li class="project__stack-item">OKHttp3</li>
+              <li class="project__stack-item">Retrofit</li>
+              <li class="project__stack-item">Admob</li>
+              <li class="project__stack-item">Sentry</li>
+              <li class="project__stack-item">GitLab CI/CD</li>
+              <li class="project__stack-item">Maven Central</li>
+              <li class="project__stack-item">JCenter</li>
+              <li class="project__stack-item">Automation scripting</li>
+              <li class="project__stack-item">Jira</li>
+              <li class="project__stack-item">Kanban</li>
+            </ul>
+          </div>
+          <div class="project">
+            <div style="text-align:center">
+              <h4 class="project__company" style="margin-bottom:0.2em;">Pushe</h4>
+              <div class="project__role" style="font-size:1em; margin-bottom:0.1em;">Android SDK Developer</div>
+              <div class="project__date" style="font-size:0.95em; color:#888;">Jul 2018 - Mar 2021 | Tehran, Iran</div>
+            </div>
+            <p class="project__description" style="text-align:left; margin-top:0.7em;">
+              • SDK team member for push-notification SDK (Kotlin, Java, Dart, JS, C#)<br>
+              • Developed main native SDK + plugins for Flutter, React Native, Unity<br>
+              • Wrote Flutter plugin, improved user count by 20%<br>
+              • Wrote new documentation using Docusaurus<br>
+              • Automated release to MavenCentral
+            </p>
+            <ul class="project__stack compact-stack">
+              <li class="project__stack-item">RXJava</li>
+              <li class="project__stack-item">OKHttp</li>
+              <li class="project__stack-item">FCM</li>
+              <li class="project__stack-item">Sentry</li>
+              <li class="project__stack-item">Dagger2</li>
+              <li class="project__stack-item">Jetpack</li>
+              <li class="project__stack-item">MVC</li>
+              <li class="project__stack-item">AndroidX</li>
+              <li class="project__stack-item">Mockk</li>
+              <li class="project__stack-item">SocketIO</li>
+              <li class="project__stack-item">MQTT</li>
+              <li class="project__stack-item">Analytics</li>
+              <li class="project__stack-item">Agile</li>
+              <li class="project__stack-item">Scrum</li>
+              <li class="project__stack-item">CI/CD</li>
+              <li class="project__stack-item">Integration testing</li>
+              <li class="project__stack-item">Event-driven</li>
+              <li class="project__stack-item">Flutter</li>
+              <li class="project__stack-item">React Native</li>
+              <li class="project__stack-item">Unity</li>
+            </ul>
+          </div>
+          <div class="project">
+            <div style="text-align:center">
+              <h4 class="project__company" style="margin-bottom:0.2em;">Self employed</h4>
+              <div class="project__role" style="font-size:1em; margin-bottom:0.1em;">Android Developer (Freelancer)</div>
+              <div class="project__date" style="font-size:0.95em; color:#888;">Jul 2016 - Jul 2018 | Tehran, Iran</div>
+            </div>
+            <p class="project__description" style="text-align:left; margin-top:0.7em;">
+              • Published and developed multiple freelancing projects.
+            </p>
+            <ul class="project__stack compact-stack">
+              <li class="project__stack-item">Android</li>
+              <li class="project__stack-item">Kotlin</li>
+              <li class="project__stack-item">Java</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Android</li>
+          <li class="skills__list-item btn btn--plain">Android SDK</li>
+          <li class="skills__list-item btn btn--plain">Kotlin</li>
+          <li class="skills__list-item btn btn--plain">AI agents</li>
+          <li class="skills__list-item btn btn--plain">Advanced</li>
+          <li class="skills__list-item btn btn--plain">MASVS</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+          <li class="skills__list-item btn btn--plain">Flutter</li>
+          <li class="skills__list-item btn btn--plain">Github</li>
+          <li class="skills__list-item btn btn--plain">Jetpack compose</li>
+          <li class="skills__list-item btn btn--plain">Pixel perfect</li>
+          <li class="skills__list-item btn btn--plain">Scripting</li>
+          <li class="skills__list-item btn btn--plain">Linux</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:hi@mahdi-malv.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
