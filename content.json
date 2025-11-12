@@ -1,0 +1,33 @@
+{
+  "name": "Mahdi Malvandi",
+  "title": "Android software developer (KMP)",
+  "tagline": "Building things for Android and iOS",
+  "bio": "You pay me, I make you apps and ...",
+  "image": "/me.jpg",
+  "contact": {
+    "email": "hi@mahdi-malv.com",
+    "social": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/mahdi-malv",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/mahdi-malv",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "title": "What I Do",
+      "items": [
+        "Android app",
+        "Android SDK",
+        "Kotlin multiplatform",
+        "Consultancy"
+      ]
+    }
+  ]
+}
